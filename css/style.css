@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    /*outline: dotted 1px red !important;*/
+}
+
+body {
+    font-family: 'Cutive Mono', monospace;
+}
+table {
+  border-spacing: 5px;
+}
+td {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+}
+td:hover {
+  cursor: pointer;
+  background-color: #06D6A0;
+}
+.container {
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin: 8% auto;
+    padding: 1.5em;
+    background-color: white;
+    color: gray;
+    font-size: 22px;
+}
+.exp-container {
+  width: 100%;
+  border: 2px solid gray;
+  padding: 0.5em;
+  margin-bottom:1em;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.text-center {
+    text-align: center;
+}
